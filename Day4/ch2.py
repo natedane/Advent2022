@@ -1,7 +1,7 @@
 import re
 f = open("input.txt", "r")
 print("hello day 4")
-#81-88,29-80
+
 answer = 0
 for line in f:
     sep = re.split(",|-|\\n", line)
